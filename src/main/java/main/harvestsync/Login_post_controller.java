@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class Login_Page_Controller {
+public class Login_post_controller {
 
     @PostMapping("/login")
-    public String login(@RequestParam String email,@RequestParam String password){
+    public String login_post_controller(@RequestParam String email,@RequestParam String password){
         System.out.println("Processing\n");
         if(email.equals("remegiajonrheym0911@gmail.com") && password.equals("12345")){
             return "success";
