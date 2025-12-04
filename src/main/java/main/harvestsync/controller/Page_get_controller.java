@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class Page_get_controller {
     @GetMapping("/login")
     public String page_get_controller() {
-        return "login_page";
+        return "login_page.html";
     }
 }

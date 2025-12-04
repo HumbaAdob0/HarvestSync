@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Login_post_controller {
 
-    @PostMapping("/login")
+    @PostMapping("/login_test")
     public String login_post_controller(@RequestParam String email,@RequestParam String password){
         System.out.println("Processing\n");
         if(email.equals("remegiajonrheym0911@gmail.com") && password.equals("12345")){
